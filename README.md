@@ -1,4 +1,4 @@
-This are community-contributed definitions for search engine and social network detections maintained and used by [Piwik](http://piwik.org/), the leading open source web analytics platform.
+These are community-contributed definitions for search engine and social network detections list maintained and used by [Piwik](http://piwik.org/), the leading open source web analytics platform.
 
 # Social Networks
 
@@ -16,13 +16,13 @@ The definitions contain the name of the social network, as well as a list of one
 
 Search engines are defined in YAML format in the file `SearchEngines.yml`
 
-The definitions of a search engines contain several parameters that are required to detect the engine and the search keyword that are included in a given url.
+Definitions of search engines contain several parameters that are required to be able to detect which search engine and which search keywords are included in a given url.
 
 Those parameters are:
 - name of the engine
-- urls of the engine
-- request parameters or regexes, that can be used to get the search keyword
-- backlink pattern, that can be used to create a valid link back to the search engine (including the keyword)
+- URLs of the engine
+- request parameters (or regexes), that can be used to get the search keyword
+- backlink pattern, that can be used to create a valid link back to the search engine (with the keyword)
 - charsets that might be used to convert keyword to UTF-8
 
 For each search engine (name) it is possible to define multiple configurations.
@@ -72,13 +72,13 @@ SearchEngine:
     backlink: '/search?q={k}'
 ```
 
-For the configuration above the generated backlink would look like `searchengine.com/search?q=piwik` (assuming that `piwik` is the keyword)
+For the configuration above the generated backlink would look like `searchengine.com/search?q=piwik` (assuming that `piwik` is the keyword).
 
 NOTE: The backlink will always be generated using the __first__ defined url in this configuration block.
 
 ### charsets
 
-Charsets can be defined if search engines are using chartsets other than UTF-8. The provided charset will be used to convert a found keyword to UTF-8
+Charsets can be defined if search engines are using charsets other than UTF-8. The provided charset will be used to convert any detected search keyword to UTF-8.
 
 ## Simple definition
 
@@ -138,4 +138,8 @@ SearchEngine:
       - as_q
 ```
 
-In this case, a backlink and charset is only defined for the first configuration. Which means there is no backlink now charset for `search-engine.org`.
+In this case, a backlink and charset is only defined for the first configuration. Which means there is no backlink nor charset set for `search-engine.org`.
+
+# Contribute
+
+We welcome your contributions and Pull requests at [github.com/piwik/searchengine-and-social-list](https://github.com/piwik/searchengine-and-social-list/edit/master/README.md)! 
