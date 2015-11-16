@@ -2090,6 +2090,7 @@ Yahoo!:
   - 
     urls:
       - search.yahoo.com
+      - malaysia.search.yahoo.com
       - yahoo.com
       - 'yahoo.{}'
       - '{}.yahoo.com'
