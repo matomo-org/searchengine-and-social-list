@@ -596,6 +596,7 @@ Excite:
       - msxml.excite.com
     params:
       - '/\/[^\/]+\/ws\/results\/[^\/]+\/([^\/]+)/'
+      - q
   - 
     urls:
       - www.excite.co.jp
