@@ -1786,6 +1786,7 @@ Startpagina (Google):
       - startgoogle.startpagina.nl
     params:
       - q
+      - query
     backlink: '?q={k}'
 Startsiden:
   - 
