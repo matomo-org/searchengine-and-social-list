@@ -1182,6 +1182,7 @@ InfoSpace:
   - 
     urls:
       - utorrent.inspsearch.com
+      - govome.inspsearch.com
     params:
       - q
 Interia:
