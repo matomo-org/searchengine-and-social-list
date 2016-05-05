@@ -914,6 +914,8 @@ Google Custom Search:
     urls:
       - google.com/cse
       - 'google.{}/cse'
+      - cse.google.com
+      - 'cse.google.{}'
       - google.com/custom
       - 'google.{}/custom'
     params:
