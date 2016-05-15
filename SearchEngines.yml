@@ -1501,6 +1501,7 @@ Orange:
   - 
     urls:
       - lemoteur.ke.voila.fr
+      - lemoteur.orange.fr
     params:
       - kw
     backlink: '?kw={k}'
