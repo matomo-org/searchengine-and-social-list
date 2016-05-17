@@ -234,7 +234,6 @@ Ask:
       - searchqu.com
       - search.tb.ask.com
       - nortonsafe.search.ask.com
-      - safesearch.avira.com
       - avira.search.ask.com
       - int.search.tb.ask.com
     params:
@@ -242,6 +241,15 @@ Ask:
       - q
       - searchfor
     backlink: 'web?q={k}'
+  - urls:
+      - safesearch.avira.com
+    params:
+      - ask
+      - q
+      - searchfor
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Atlas:
   - 
     urls:
