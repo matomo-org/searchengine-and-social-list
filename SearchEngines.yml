@@ -2179,6 +2179,11 @@ Yahoo! Japan:
       - home.kingsoft.jp
     params:
       - keyword
+  -
+    urls:
+      - jwsearch.jword.jp
+    params:
+      - q
 Yahoo! Japan Images:
   - 
     urls:
