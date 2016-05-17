@@ -1111,10 +1111,15 @@ InfoSpace:
     backlink: 'pemonitorhosted/ws/results/Web/{k}/1/417/TopNavigation/Source/'
   - 
     urls:
+      - search.avast.com
+    params:
+      - q
+  -
+    urls:
       - isearch.babylon.com
     params:
       - q
-  - 
+  -
     urls:
       - start.facemoods.com
     params:
