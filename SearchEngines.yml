@@ -323,6 +323,15 @@ Bing:
     urls:
       - bing.com
       - '{}.bing.com'
+    params:
+      - q
+      - Q
+    backlink: 'search?q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
+  -
+    urls:
       - msnbc.msn.com
       - dizionario.it.msn.com
       - enciclopedia.it.msn.com
