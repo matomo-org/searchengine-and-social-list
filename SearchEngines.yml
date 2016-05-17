@@ -1603,6 +1603,9 @@ Qwant:
       - lite.qwant.com
     params:
       - q
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Rakuten:
   - 
     urls:
