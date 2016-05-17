@@ -1575,6 +1575,7 @@ Qwant:
   - 
     urls:
       - www.qwant.com
+      - lite.qwant.com
     params:
       - q
 Rakuten:
