@@ -1330,8 +1330,15 @@ LookAny:
       - www.lookany.com
     params:
       - '/(?:search|images|videos)\/([^\/]+)/'
-Looksmart:
+Lookseek:
   - 
+    urls:
+      - search.lookseek.com
+    params:
+      - q
+    backlink: 'search2.php?q={k}'
+Looksmart:
+  -
     urls:
       - www.looksmart.com
     params:
@@ -1844,6 +1851,13 @@ Sputnik:
     params:
       - q
     backlink: 'search?q={k}'
+Startpage:
+  -
+    urls:
+      - startpage.com
+    params: []
+    hiddenkeyword:
+      - '/do/asearch'
 Startpagina (Google):
   - 
     urls:
