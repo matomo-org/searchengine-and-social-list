@@ -864,10 +864,6 @@ Google:
   - 
     urls:
       - www.delta-search.com
-    params:
-      - q
-  - 
-    urls:
       - www1.delta-search.com
     params:
       - q
@@ -905,10 +901,6 @@ Google:
   - 
     urls:
       - search.smt.docomo.ne.jp
-    params:
-      - MT
-  - 
-    urls:
       - image.search.smt.docomo.ne.jp
     params:
       - MT
@@ -940,6 +932,12 @@ Google:
     params:
       - p
     backlink: 'result?p={k}'
+  -
+    urls:
+      - startab.me
+    params:
+      - q
+    backlink: 'search/?q={k}'
 Google Blogsearch:
   - 
     urls:
@@ -1533,6 +1531,13 @@ Online.no:
     params:
       - q
     backlink: 'google/index.jsp?q={k}'
+OnlySearch:
+  -
+    urls:
+      - www.only-search.com
+    params:
+      - q
+    backlink: '?q={k}'
 Opplysningen 1881:
   - 
     urls:
