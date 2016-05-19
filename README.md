@@ -22,6 +22,7 @@ Those parameters are:
 - name of the engine
 - URLs of the engine
 - request parameters (or regexes), that can be used to get the search keyword
+- hidden keyword paths
 - backlink pattern, that can be used to create a valid link back to the search engine (with the keyword)
 - charsets that might be used to convert keyword to UTF-8
 
@@ -75,6 +76,27 @@ SearchEngine:
 For the configuration above the generated backlink would look like `searchengine.com/search?q=piwik` (assuming that `piwik` is the keyword).
 
 NOTE: The backlink will always be generated using the __first__ defined url in this configuration block.
+
+### hiddenkeyword
+
+More and more search engines started to hide keywords in referrers for privacy reasons. `hiddenkeyword` allows to define if the search engines refers from paths that may not contain/provide a keyword.
+If a search engine always refers from the path `/do/search` that path should be added. If the path might vary regexes can be added with strings, starting and ending with `/`, e.g. `/\/search[0-9]*/`
+
+NOTE: The path matched againt will also include the referrers query string and hash. So if the referrer might contain a query you might use a regex like `/search(\?.*)?/` 
+
+```YAML
+SearchEngine:
+  -
+    urls:
+      - searchengine.com
+    params: []
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
+      - '/search'
+```
+
+The configuration above would allow an empty keyword for `searchengine.com`, `searchengine.com/` and `searchengine.com/search`
 
 ### charsets
 
@@ -136,6 +158,13 @@ SearchEngine:
       - search-engine.org
     params:
       - as_q
+  -
+    urls:
+      - search-engine.fr
+    params: []
+    hiddenkeyword:
+      - '/'
+      - '/^search.*/
 ```
 
 In this case, a backlink and charset is only defined for the first configuration. Which means there is no backlink nor charset set for `search-engine.org`.
