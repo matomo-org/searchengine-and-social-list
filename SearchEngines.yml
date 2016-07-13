@@ -234,7 +234,6 @@ Ask:
       - searchqu.com
       - search.tb.ask.com
       - nortonsafe.search.ask.com
-      - safesearch.avira.com
       - avira.search.ask.com
       - int.search.tb.ask.com
     params:
@@ -242,6 +241,15 @@ Ask:
       - q
       - searchfor
     backlink: 'web?q={k}'
+  - urls:
+      - safesearch.avira.com
+    params:
+      - ask
+      - q
+      - searchfor
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Atlas:
   - 
     urls:
@@ -323,6 +331,15 @@ Bing:
     urls:
       - bing.com
       - '{}.bing.com'
+    params:
+      - q
+      - Q
+    backlink: 'search?q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
+  -
+    urls:
       - msnbc.msn.com
       - dizionario.it.msn.com
       - enciclopedia.it.msn.com
@@ -501,6 +518,13 @@ dir.com:
       - fr.dir.com
     params:
       - req
+DisconnectSearch:
+  -
+    urls:
+      - search.disconnect.me
+    params: []
+    hiddenkeyword:
+      - '/.*/'
 dmoz:
   - 
     urls:
@@ -515,6 +539,8 @@ DuckDuckGo:
       - r.duckduckgo.com
     params:
       - q
+    hiddenkeyword:
+      - '/.*/'
     backlink: '?q={k}'
 Earthlink:
   - 
@@ -765,6 +791,7 @@ Google:
     urls:
       - google.com
       - 'google.{}'
+      - encrypted.google.com
       - www2.google.com
       - ipv6.google.com
       - go.google.com
@@ -780,6 +807,10 @@ Google:
       - isearch.avg.com
     params:
       - q
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
+      - '/search'
     backlink: 'search?q={k}'
   - 
     urls:
@@ -833,10 +864,6 @@ Google:
   - 
     urls:
       - www.delta-search.com
-    params:
-      - q
-  - 
-    urls:
       - www1.delta-search.com
     params:
       - q
@@ -874,10 +901,6 @@ Google:
   - 
     urls:
       - search.smt.docomo.ne.jp
-    params:
-      - MT
-  - 
-    urls:
       - image.search.smt.docomo.ne.jp
     params:
       - MT
@@ -903,6 +926,18 @@ Google:
     params:
       - '/\/search\?q=cache:(?:[A-Za-z0-9]+):[^+]+([^&]+)/'
     backlink: 'search?q={k}'
+  -
+    urls:
+      - search.bt.com
+    params:
+      - p
+    backlink: 'result?p={k}'
+  -
+    urls:
+      - startab.me
+    params:
+      - q
+    backlink: 'search/?q={k}'
 Google Blogsearch:
   - 
     urls:
@@ -928,8 +963,12 @@ Google Images:
     urls:
       - images.google.com
       - 'images.google.{}'
+      - 'google.com/imgres'
+      - 'google.{}/imgres'
     params:
       - q
+    hiddenkeyword:
+      - '/.*/'
     backlink: 'images?q={k}'
 Google Maps:
   - 
@@ -962,13 +1001,6 @@ Google Shopping:
     params:
       - q
     backlink: '?q={k}&tbm=shop'
-Google SSL:
-  - 
-    urls:
-      - encrypted.google.com
-    params:
-      - q
-    backlink: 'search?q={k}'
 Google syndicated search:
   - 
     urls:
@@ -1218,6 +1250,8 @@ Ixquick:
       - s5-eu4.ixquick.com
     params:
       - query
+    hiddenkeyword:
+      - '/.*/'
 Jungle Key:
   - 
     urls:
@@ -1294,8 +1328,15 @@ LookAny:
       - www.lookany.com
     params:
       - '/(?:search|images|videos)\/([^\/]+)/'
-Looksmart:
+Lookseek:
   - 
+    urls:
+      - search.lookseek.com
+    params:
+      - q
+    backlink: 'search2.php?q={k}'
+Looksmart:
+  -
     urls:
       - www.looksmart.com
     params:
@@ -1490,6 +1531,13 @@ Online.no:
     params:
       - q
     backlink: 'google/index.jsp?q={k}'
+OnlySearch:
+  -
+    urls:
+      - www.only-search.com
+    params:
+      - q
+    backlink: '?q={k}'
 Opplysningen 1881:
   - 
     urls:
@@ -1584,6 +1632,9 @@ Qwant:
       - lite.qwant.com
     params:
       - q
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Rakuten:
   - 
     urls:
@@ -1656,6 +1707,14 @@ SearchCanvas:
     params:
       - q
     backlink: 'web?q={k}'
+SearchLock:
+  -
+    urls:
+      - searchlock.com
+    params:
+      - q
+    hiddenkeyword:
+     - '/.*/'
 Searchy:
   - 
     urls:
@@ -1797,6 +1856,13 @@ Sputnik:
     params:
       - q
     backlink: 'search?q={k}'
+Startpage:
+  -
+    urls:
+      - startpage.com
+    params: []
+    hiddenkeyword:
+      - '/do/asearch'
 Startpagina (Google):
   - 
     urls:
@@ -2123,7 +2189,16 @@ Yahoo!:
       - p
       - q
     backlink: 'search?p={k}'
-  - 
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
+  -
+    urls:
+      - r.search.yahoo.com
+    params: []
+    hiddenkeyword:
+      - '/.*/'
+  -
     urls:
       - www.cercato.it
     params:
@@ -2163,19 +2238,19 @@ Yahoo! Images:
       - va
     backlink: 'search/images?p={k}'
 Yahoo! Japan:
-  - 
+  -
     urls:
       - search.yahoo.co.jp
     params:
       - p
       - vp
     backlink: 'search?p={k}'
-  - 
+  -
     urls:
       - jp.hao123.com
     params:
       - query
-  - 
+  -
     urls:
       - home.kingsoft.jp
     params:
@@ -2186,14 +2261,14 @@ Yahoo! Japan:
     params:
       - q
 Yahoo! Japan Images:
-  - 
+  -
     urls:
       - image.search.yahoo.co.jp
     params:
       - p
     backlink: 'search?p={k}'
 Yahoo! Japan Videos:
-  - 
+  -
     urls:
       - video.search.yahoo.co.jp
     params:
