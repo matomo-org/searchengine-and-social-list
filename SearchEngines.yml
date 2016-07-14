@@ -13,9 +13,10 @@
     urls:
       - www.118700.se
       - foretag.118700.se
+      - webben.118700.se
     params:
       - q
-    backlink: 'sok/{k}.aspx'
+    backlink: 'sok.aspx?q={k}'
 123people:
   - 
     urls:
