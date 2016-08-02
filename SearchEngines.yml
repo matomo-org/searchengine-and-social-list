@@ -8,6 +8,15 @@
     backlink: 's/{k}'
     charsets:
       - iso-8859-2
+118 700:
+  - 
+    urls:
+      - www.118700.se
+      - foretag.118700.se
+      - webben.118700.se
+    params:
+      - q
+    backlink: 'sok.aspx?q={k}'
 123people:
   - 
     urls:
@@ -74,6 +83,13 @@ Aguea:
     params:
       - q
     backlink: 's.py?q={k}'
+Allaverksamheter:
+  - 
+    urls:
+      - www.allaverksamheter.se
+    params:
+      - What
+    backlink: 'SearchResult.aspx?What={k}'
 Alexa:
   - 
     urls:
@@ -1230,6 +1246,13 @@ Interia:
     params:
       - q
     backlink: 'szukaj?q={k}'
+Isodelen:
+  - 
+    urls:
+      - www.isodelen.se
+    params:
+      - Keywords
+    backlink: 'sokresultat?Keywords={k}'
 Ixquick:
   - 
     urls:
@@ -1650,6 +1673,13 @@ Rambler:
       - query
       - words
     backlink: 'search?query={k}'
+Riksdelen:
+  - 
+  urls:
+    - www.riksdelen.se
+  params:
+    - What
+  backlink: 'SearchResult.aspx?What={k}'
 Road Runner:
   - 
     urls:
