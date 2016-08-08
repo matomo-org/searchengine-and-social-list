@@ -1675,11 +1675,11 @@ Rambler:
     backlink: 'search?query={k}'
 Riksdelen:
   - 
-  urls:
-    - www.riksdelen.se
-  params:
-    - What
-  backlink: 'SearchResult.aspx?What={k}'
+    urls:
+      - www.riksdelen.se
+    params:
+      - What
+    backlink: 'SearchResult.aspx?What={k}'
 Road Runner:
   - 
     urls:
