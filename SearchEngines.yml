@@ -281,6 +281,10 @@ auone:
     params:
       - q
     backlink: '?q={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 auone Images:
   - 
     urls:
@@ -288,6 +292,10 @@ auone Images:
     params:
       - q
     backlink: '?q={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 Austronaut:
   - 
     urls:
@@ -335,6 +343,10 @@ Biglobe:
     params:
       - q
     backlink: 'cgi-bin/search-st?q={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 Biglobe Images:
   - 
     urls:
@@ -2275,6 +2287,10 @@ Yahoo! Japan:
       - p
       - vp
     backlink: 'search?p={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
   -
     urls:
       - jp.hao123.com
@@ -2297,6 +2313,10 @@ Yahoo! Japan Images:
     params:
       - p
     backlink: 'search?p={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 Yahoo! Japan Videos:
   -
     urls:
@@ -2304,6 +2324,10 @@ Yahoo! Japan Videos:
     params:
       - p
     backlink: 'search?p={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 Yam:
   - 
     urls:
