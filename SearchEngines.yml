@@ -8,15 +8,6 @@
     backlink: 's/{k}'
     charsets:
       - iso-8859-2
-118 700:
-  - 
-    urls:
-      - www.118700.se
-      - foretag.118700.se
-      - webben.118700.se
-    params:
-      - q
-    backlink: 'sok.aspx?q={k}'
 123people:
   - 
     urls:
@@ -83,13 +74,6 @@ Aguea:
     params:
       - q
     backlink: 's.py?q={k}'
-Allaverksamheter:
-  - 
-    urls:
-      - www.allaverksamheter.se
-    params:
-      - What
-    backlink: 'SearchResult.aspx?What={k}'
 Alexa:
   - 
     urls:
@@ -281,6 +265,10 @@ auone:
     params:
       - q
     backlink: '?q={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 auone Images:
   - 
     urls:
@@ -335,6 +323,10 @@ Biglobe:
     params:
       - q
     backlink: 'cgi-bin/search-st?q={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 Biglobe Images:
   - 
     urls:
@@ -1246,13 +1238,6 @@ Interia:
     params:
       - q
     backlink: 'szukaj?q={k}'
-Isodelen:
-  - 
-    urls:
-      - www.isodelen.se
-    params:
-      - Keywords
-    backlink: 'sokresultat?Keywords={k}'
 Ixquick:
   - 
     urls:
@@ -1673,13 +1658,6 @@ Rambler:
       - query
       - words
     backlink: 'search?query={k}'
-Riksdelen:
-  - 
-    urls:
-      - www.riksdelen.se
-    params:
-      - What
-    backlink: 'SearchResult.aspx?What={k}'
 Road Runner:
   - 
     urls:
@@ -2275,6 +2253,10 @@ Yahoo! Japan:
       - p
       - vp
     backlink: 'search?p={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
   -
     urls:
       - jp.hao123.com
@@ -2297,6 +2279,11 @@ Yahoo! Japan Images:
     params:
       - p
     backlink: 'search?p={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
+
 Yahoo! Japan Videos:
   -
     urls:
@@ -2304,6 +2291,10 @@ Yahoo! Japan Videos:
     params:
       - p
     backlink: 'search?p={k}'
+    charsets:
+      - utf-8
+      - euc-jp
+      - ms932
 Yam:
   - 
     urls:
