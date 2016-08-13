@@ -1903,6 +1903,7 @@ StartPage:
   -
     urls:
       - startpage.com
+      - classic.startpage.com
       - www.startpage.com
     params:
       - query
