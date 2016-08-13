@@ -581,9 +581,10 @@ Ecosia:
   - 
     urls:
       - ecosia.org
+      - www.ecosia.org
     params:
       - q
-    backlink: 'search.php?q={k}'
+    backlink: 'search?q={k}'
 El Mundo:
   - 
     urls:
