@@ -1265,7 +1265,7 @@ Isodelen:
     params:
       - Keywords
     backlink: 'sokresultat?Keywords={k}'
-Ixquick:
+IxQuick:
   - 
     urls:
       - ixquick.com
@@ -1285,8 +1285,9 @@ Ixquick:
       - s5-eu4.ixquick.com
     params:
       - query
+    backlink: 'do/asearch?query={k}'
     hiddenkeyword:
-      - '/.*/'
+      - '/do/asearch'
 Jungle Key:
   - 
     urls:
@@ -1898,11 +1899,14 @@ Sputnik:
     params:
       - q
     backlink: 'search?q={k}'
-Startpage:
+StartPage:
   -
     urls:
       - startpage.com
-    params: []
+      - www.startpage.com
+    params:
+      - query
+    backlink: 'do/asearch?query={k}'
     hiddenkeyword:
       - '/do/asearch'
 Startpagina (Google):
