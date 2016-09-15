@@ -832,6 +832,7 @@ Google:
       - 'gppgle.{}'
       - googel.com
       - 'googel.{}'
+      - com.google.android.googlequicksearchbox
       - search.avg.com
       - isearch.avg.com
     params:
