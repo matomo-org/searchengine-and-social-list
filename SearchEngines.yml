@@ -1333,9 +1333,11 @@ Kensaq:
 Kvasir:
   - 
     urls:
+      - kvasir.no
       - www.kvasir.no
     params:
       - q
+      - search_word
     backlink: 'alle?q={k}'
 La Toile Du Québec (Google):
   - 
