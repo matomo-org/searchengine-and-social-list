@@ -2350,6 +2350,9 @@ Yandex:
       - yandex.ru
       - yandex.com
       - 'yandex.{}'
+      - 'www.yandex.{}'
+      - 'clck.yandex.{}'
+      - 'm.yandex.{}'
     params:
       - text
     backlink: 'yandsearch?text={k}'
