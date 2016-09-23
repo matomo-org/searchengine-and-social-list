@@ -2229,12 +2229,10 @@ Yahoo!:
     urls:
       - search.yahoo.com
       - malaysia.search.yahoo.com
-      - yahoo.com
-      - 'yahoo.{}'
-      - '{}.yahoo.com'
+      - '{}.search.yahoo.com'
       - cade.yahoo.com
-      - espanol.yahoo.com
-      - qc.yahoo.com
+      - espanol.search.yahoo.com
+      - qc.search.yahoo.com
       - one.cn.yahoo.com
     params:
       - p
