@@ -2469,3 +2469,10 @@ Zxuso:
     params:
       - search
     backlink: '#search={k}'
+Laban:
+  - 
+    urls:
+      - laban.vn
+    params:
+      - q
+backlink: 'search.html?q={k}'
