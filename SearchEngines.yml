@@ -2469,3 +2469,10 @@ Zxuso:
     params:
       - search
     backlink: '#search={k}'
+Lilo:
+  - 
+    urls:
+      - search.lilo.org
+    params:
+      - q
+backlink: 'results.php?q={k}'
