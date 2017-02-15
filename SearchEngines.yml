@@ -1348,6 +1348,13 @@ La Toile Du Québec (Google):
     params:
       - q
     backlink: 'search?q={k}'
+Laban:
+  - 
+    urls:
+      - laban.vn
+    params:
+      - q
+    backlink: 'search.html?q={k}'
 Latne:
   - 
     urls:
@@ -1355,6 +1362,13 @@ Latne:
     params:
       - q
     backlink: 'siets.php?q={k}'
+Lilo:
+  - 
+    urls:
+      - search.lilo.org
+    params:
+      - q
+    backlink: 'results.php?q={k}'
 Lo.st:
   - 
     urls:
@@ -2469,10 +2483,3 @@ Zxuso:
     params:
       - search
     backlink: '#search={k}'
-Lilo:
-  - 
-    urls:
-      - search.lilo.org
-    params:
-      - q
-    backlink: 'results.php?q={k}'
