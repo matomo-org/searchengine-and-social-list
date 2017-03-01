@@ -553,13 +553,6 @@ DisconnectSearch:
     params: []
     hiddenkeyword:
       - '/.*/'
-dmoz:
-  - 
-    urls:
-      - dmoz.org
-      - editors.dmoz.org
-    params:
-      - search
 DuckDuckGo:
   - 
     urls:
