@@ -1,63 +1,26 @@
-Facebook:
-  - facebook.com
-  - fb.me
-
-Ozone:
-  - qzone.qq.com
-
-Haboo:
-  - habbo.com
-
-Twitter:
-  - twitter.com
-  - t.co
-
-Renren:
-  - renren.com
-
-"Windows Live Spaces":
-  - login.live.com
-
-LinkedIn:
-  - linkedin.com
-  - lnkd.in
+Badoo:
+  - badoo.com
 
 Bebo:
   - bebo.com
 
-Vkontakte:
-   - vk.com
-   - vkontakte.ru
+BlackPlanet:
+  - blackplanet.com
 
-Tagged:
-  - login.tagged.com
-
-Orkut:
-  - orkut.com
-
-Myspace:
-  - myspace.com
-
-Frinedster:
-  - friendster.com
-
-Badoo:
-  - badoo.com
-
-hi5:
-  - hi5.com
-
-Netlog:
-  - netlog.com
-
-Flixster:
-  - flixster.com
-
-MyLife:
-  - mylife.ru
+Buzznet:
+  - buzznet.com
 
 Classmates.com:
   - classmates.com
+
+Cyworld:
+  - global.cyworld.com
+
+Gaia Online:
+  - gaiaonline.com
+
+Geni.com:
+  - geni.com
 
 GitHub:
   - github.com
@@ -67,23 +30,63 @@ Google%2B:
   - url.google.com
   - com.google.android.apps.plus
 
-douban:
+Douban:
   - douban.com
 
 Dribbble:
   - dribbble.com
 
-Odnoklassniki:
-  - odnoklassniki.ru
+Facebook:
+  - facebook.com
+  - fb.me
+  - m.facebook.com
+  - l.facebook.com
 
-Viadeo:
-  - viadeo.com
+Fetlife:
+  - fetlife.com
 
 Flickr:
   - flickr.com
 
-WeeWorld:
-  - weeworld.com
+Flixster:
+  - flixster.com
+
+Fotolog:
+  - fotolog.com
+
+Foursquare:
+  - foursquare.com
+
+"Friends Reunited":
+  - friendsreunited.com
+
+Friendster:
+  - friendster.com
+
+gree:
+  - gree.jp
+
+Haboo:
+  - habbo.com
+
+"Hacker News":
+  - news.ycombinator.com
+
+hi5:
+  - hi5.com
+
+Hyves:
+  - hyves.nl
+
+identi.ca:
+  - identi.ca
+
+instagram:
+  - instagram.com
+  - l.instagram.com
+
+lang-8:
+  - lang-8.com
 
 Last.fm:
   - last.fm
@@ -98,51 +101,55 @@ Last.fm:
   - lastfm.se
   - lastfm.com.tr
 
-MyHeritage:
-  - myheritage.com
-
-Xanga:
-  - xanga.com
-
-Mixi:
-  - mixi.jp
-
-Cyworld:
-  - global.cyworld.com
-
-"Gaia Online":
-  - gaiaonline.com
-
-Skyrock:
-  - skyrock.com
-
-BlackPlanet:
-  - blackplanet.com
-
-myYearbook:
-  - myyearbook.com
-
-Fotolog:
-  - fotolog.com
-
-"Friends Reunited":
-  - friendsreunited.com
+LinkedIn:
+  - linkedin.com
+  - lnkd.in 
 
 LiveJournal:
   - livejournal.ru
   - livejournal.com
 
-StudiVZ:
-  - studivz.net
-
 MeinVZ:
   - meinvz.net
 
-StackOverflow:
-  - stackoverflow.com
+Mixi:
+  - mixi.jp
 
-Sonico.com:
-  - sonico.com
+MoiKrug.ru:
+  - moikrug.ru
+
+Multiply:
+  - multiply.com
+
+my.mail.ru:
+  - my.mail.ru
+
+MyHeritage:
+  - myheritage.com
+
+MyLife:
+  - mylife.ru
+
+Myspace:
+  - myspace.com
+
+myYearbook:
+  - myyearbook.com
+
+Nasza-klasa.pl:
+  - nk.pl
+
+Netlog:
+  - netlog.com
+
+Odnoklassniki:
+  - odnoklassniki.ru
+
+Orkut:
+  - orkut.com  
+
+Ozone:
+  - qzone.qq.com
 
 Pinterest:
   - pinterest.com
@@ -150,79 +157,83 @@ Pinterest:
 Plaxo:
   - plaxo.com
 
-Geni.com:
-  - geni.com
+reddit:
+  - reddit.com
+  - np.reddit.com
+  - pay.reddit.com
 
-Tuenti:
-  - tuenti.com
+Renren:
+  - renren.com
 
-XING:
-  - xing.com
+Skyrock:
+  - skyrock.com
+
+Sonico.com:
+  - sonico.com
+
+StackOverflow:
+  - stackoverflow.com
+
+StudiVZ:
+  - studivz.net
+
+Tagged:
+  - login.tagged.com
 
 Taringa!:
   - taringa.net
 
-Nasza-klasa.pl:
-  - nk.pl
+Tuenti:
+  - tuenti.com
 
-StumbleUpon:
-  - stumbleupon.com
+tumblr:
+  - tumblr.com
+
+Twitter:
+  - twitter.com
+  - t.co
 
 Sourceforge:
   - sourceforge.net
 
-Hyves:
-  - hyves.nl
+StumbleUpon:
+  - stumbleupon.com
 
-WAYN:
-  - wayn.com
+Vkontakte:
+   - vk.com
+   - vkontakte.ru
 
-Buzznet:
-  - buzznet.com
+YouTube:
+  - youtube.com
+  - youtu.be
+  
+V2EX:
+  - v2ex.com
+  
+Viadeo:
+  - viadeo.com
 
-Multiply:
-  - multiply.com
-
-Foursquare:
-  - foursquare.com
+Vimeo:
+  - vimeo.com
 
 vkrugudruzei.ru:
   - vkrugudruzei.ru
 
-my.mail.ru:
-  - my.mail.ru
-
-MoiKrug.ru:
-  - moikrug.ru
-
-Reddit:
-  - reddit.com
-
-"Hacker News":
-  - news.ycombinator.com
-
-identi.ca:
-  - identi.ca
+WAYN:
+  - wayn.com
 
 Weibo:
   - weibo.com
   - t.cn
 
-YouTube:
-  - youtube.com
-  - youtu.be
+WeeWorld:
+  - weeworld.com
 
-Vimeo:
-  - vimeo.com
+"Windows Live Spaces":
+  - login.live.com
 
-tumblr:
-  - tumblr.com
+Xanga:
+  - xanga.com
 
-lang-8:
-  - lang-8.com
-
-gree:
-  - gree.jp
-
-V2EX:
-  - v2ex.com
+XING:
+  - xing.com
