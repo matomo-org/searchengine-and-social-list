@@ -2312,6 +2312,10 @@ Yahoo! Japan:
       - utf-8
       - euc-jp
       - ms932
+    hiddenkeyword:
+      - '/\/r\/.*/'
+      - '/^$/'
+      - '/'
   -
     urls:
       - jp.hao123.com
