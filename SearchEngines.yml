@@ -365,6 +365,7 @@ Bing:
       - Q
     backlink: 'search?q={k}'
     hiddenkeyword:
+      - '/\/cr\?.*/'
       - '/^$/'
       - '/'
   -
@@ -841,6 +842,7 @@ Google:
       - '/^$/'
       - '/'
       - '/\/search(\?.*)?/'
+      - '/\/url\?.*/'
     backlink: 'search?q={k}'
   -
     urls:
@@ -2261,6 +2263,7 @@ Yahoo!:
       - q
     backlink: 'search?p={k}'
     hiddenkeyword:
+      - '/\/r\/.*/'
       - '/^$/'
       - '/'
   -
