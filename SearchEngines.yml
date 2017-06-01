@@ -359,6 +359,7 @@ Bing:
     urls:
       - bing.com
       - '{}.bing.com'
+      - 'global.bing.com'
     params:
       - q
       - Q
@@ -832,7 +833,6 @@ Google:
       - 'gppgle.{}'
       - googel.com
       - 'googel.{}'
-      - com.google.android.googlequicksearchbox
       - search.avg.com
       - isearch.avg.com
     params:
@@ -840,9 +840,17 @@ Google:
     hiddenkeyword:
       - '/^$/'
       - '/'
-      - '/search'
+      - '/\/search(\?.*)?/'
     backlink: 'search?q={k}'
-  - 
+  -
+    urls:
+      - com.google.android.googlequicksearchbox
+      - android-app//com.google.android.googlequicksearchbox/https/www.google.com
+    params:
+      - 'q'
+    hiddenkeyword:
+      - '/.*/'
+  -
     urls:
       - search.chedot.com
     params:
