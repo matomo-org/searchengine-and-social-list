@@ -2383,6 +2383,11 @@ Yandex:
     params:
       - text
     backlink: 'yandsearch?text={k}'
+  -
+    urls:
+      - yabs.yandex.{}
+    params:
+      - q
 Yandex Images:
   - 
     urls:
