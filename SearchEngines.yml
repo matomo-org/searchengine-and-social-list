@@ -1906,9 +1906,12 @@ Sogou:
     backlink: 'web?query={k}'
     charsets:
       - gb2312
-  - 
+    hiddenkeyword:
+      - '/link\?url=.*/'
+  -
     urls:
       - m.sogou.com
+      - wap.sogou.com
     params:
       - keyword
 Soso:
