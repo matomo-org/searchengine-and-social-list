@@ -587,6 +587,9 @@ Ecosia:
     params:
       - q
     backlink: 'search?q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 El Mundo:
   - 
     urls:
@@ -1782,6 +1785,7 @@ SearchLock:
   -
     urls:
       - searchlock.com
+      - results.searchlock.com
     params:
       - q
     hiddenkeyword:
@@ -2386,6 +2390,9 @@ Yandex:
     params:
       - text
     backlink: 'yandsearch?text={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Yandex Images:
   - 
     urls:
