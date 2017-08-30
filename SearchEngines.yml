@@ -2393,6 +2393,11 @@ Yandex:
     hiddenkeyword:
       - '/^$/'
       - '/'
+  -
+    urls:
+      - yabs.yandex.{}
+    params:
+      - q
 Yandex Images:
   - 
     urls:
