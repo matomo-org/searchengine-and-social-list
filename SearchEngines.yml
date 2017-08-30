@@ -587,6 +587,9 @@ Ecosia:
     params:
       - q
     backlink: 'search?q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 El Mundo:
   - 
     urls:
@@ -1782,6 +1785,7 @@ SearchLock:
   -
     urls:
       - searchlock.com
+      - results.searchlock.com
     params:
       - q
     hiddenkeyword:
@@ -1906,9 +1910,12 @@ Sogou:
     backlink: 'web?query={k}'
     charsets:
       - gb2312
-  - 
+    hiddenkeyword:
+      - '/link\?url=.*/'
+  -
     urls:
       - m.sogou.com
+      - wap.sogou.com
     params:
       - keyword
 Soso:
@@ -2383,6 +2390,9 @@ Yandex:
     params:
       - text
     backlink: 'yandsearch?text={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
   -
     urls:
       - yabs.yandex.{}
