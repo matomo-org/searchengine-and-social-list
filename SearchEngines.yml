@@ -257,12 +257,16 @@ Ask:
       - q
       - searchfor
     backlink: 'web?q={k}'
+Avira SafeSearch:
   - urls:
+      - search.avira.com
+      - search.avira.net
       - safesearch.avira.com
     params:
       - ask
       - q
       - searchfor
+    backlink: '#/web/result?q={k}'
     hiddenkeyword:
       - '/^$/'
       - '/'
@@ -960,6 +964,7 @@ Google:
   - 
     urls:
       - searches.f-secure.com
+      - search.f-secure.com
     params:
       - query
     backlink: 'search?query={k}'
@@ -1940,6 +1945,23 @@ StartPage:
       - startpage.com
       - classic.startpage.com
       - www.startpage.com
+      - eu.startpage.com
+      - s6-eu5.ixquick.com
+      - s2-eu4.startpage.com
+      - s6-eu4.startpage.com
+      - s7-eu4.startpage.com
+      - s1-eu5.startpage.com
+      - s2-eu5.startpage.com
+      - s4-eu5.startpage.com
+      - s5-eu5.startpage.com
+      - s6-eu5.startpage.com
+      - s7-eu5.startpage.com
+      - s8-eu5.startpage.com
+      - s10-eu5.startpage.com
+      - s11-eu5.startpage.com
+      - s12-eu5.startpage.com
+      - s13-eu5.startpage.com
+      - s14-eu5.startpage.com
     params:
       - query
     backlink: 'do/asearch?query={k}'
