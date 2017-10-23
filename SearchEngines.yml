@@ -39,6 +39,7 @@
   - 
     urls:
       - www.so.com
+      - m.so.com
     params:
       - q
     backlink: 's?q={k}'
