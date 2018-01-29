@@ -1,4 +1,4 @@
-These are community-contributed definitions for search engine and social network detections list maintained and used by [Piwik](http://piwik.org/), the leading open source web analytics platform.
+These are community-contributed definitions for search engine and social network detections list maintained and used by [Matomo](https://matomo.org/) (formerly Piwik), the leading open source web analytics platform.
 
 # Social Networks
 
@@ -57,7 +57,7 @@ SearchEngine:
 ```
 
 The example above would first try to get the keyword with the request param `q`. If that is not available it would use the regex `'/search\/[^\/]+\/(.*)/'` to get it.
-This regex would match an url like 'http://searchengine.com/search/web/piwik'
+This regex would match an url like 'http://searchengine.com/search/web/matomo'
 
 ### backlink
 
@@ -73,7 +73,7 @@ SearchEngine:
     backlink: '/search?q={k}'
 ```
 
-For the configuration above the generated backlink would look like `searchengine.com/search?q=piwik` (assuming that `piwik` is the keyword).
+For the configuration above the generated backlink would look like `searchengine.com/search?q=matomo` (assuming that `matomo` is the keyword).
 
 NOTE: The backlink will always be generated using the __first__ defined url in this configuration block.
 
@@ -171,4 +171,4 @@ In this case, a backlink and charset is only defined for the first configuration
 
 # Contribute
 
-We welcome your contributions and Pull requests at [github.com/piwik/searchengine-and-social-list](https://github.com/piwik/searchengine-and-social-list/edit/master/README.md)! 
+We welcome your contributions and Pull requests at [github.com/matomo-org/searchengine-and-social-list](https://github.com/matomo-org/searchengine-and-social-list/edit/master/README.md)! 
