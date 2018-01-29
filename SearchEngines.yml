@@ -2039,6 +2039,13 @@ TalkTalk:
     params:
       - query
     backlink: 'search/results.html?query={k}'
+Tarmot:
+  -
+    urls:
+      - tarmot.com
+    params:
+      - q
+    backlink: 'ara/?q={k}'
 Technorati:
   - 
     urls:
