@@ -1,5 +1,5 @@
 {
-  "name": "piwik/searchengine-and-social-list",
-  "description": "Search engine and social network definitions used by Piwik",
+  "name": "matomo/searchengine-and-social-list",
+  "description": "Search engine and social network definitions used by Matomo (formerly Piwik)",
   "license": "Public Domain"
 }
