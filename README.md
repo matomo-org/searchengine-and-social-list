@@ -38,7 +38,9 @@ You can use `{}` as a placeholder for country shortcodes in subdomains or tld.
 - `{}.searchengine.com` would also match `de.searchengine.com` or `nl.searchengine.com`
 - `searchengine.{}` would also match `searchengine.de` or `searchengine.nl`
 
-NOTE: For tlds only `{}` would also match combined tlds like `co.uk`. (Full list `com.*, org.*, net.*, co.*, it.*, edu.*`)
+#### Notes: 
+- For TLDs only `{}` would also match combined TLDs like `co.uk`. (Full list `com.*, org.*, net.*, co.*, it.*, edu.*`)
+- The first URL will be used for the icon, so the most popular/representative URL should be placed there 
 
 ### params
 
