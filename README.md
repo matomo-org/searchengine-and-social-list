@@ -77,14 +77,16 @@ SearchEngine:
 
 For the configuration above the generated backlink would look like `searchengine.com/search?q=matomo` (assuming that `matomo` is the keyword).
 
-NOTE: The backlink will always be generated using the __first__ defined url in this configuration block.
+#### Note: 
+
+The backlink will always be generated using the __first__ defined url in this configuration block.
 
 ### hiddenkeyword
 
 More and more search engines started to hide keywords in referrers for privacy reasons. `hiddenkeyword` allows to define if the search engines refers from paths that may not contain/provide a keyword.
 If a search engine always refers from the path `/do/search` that path should be added. If the path might vary regexes can be added with strings, starting and ending with `/`, e.g. `/\/search[0-9]*/`
 
-NOTE: The path matched againt will also include the referrers query string and hash. So if the referrer might contain a query you might use a regex like `/search(\?.*)?/` 
+NOTE: The path matched against will also include the referrers query string and hash. So if the referrer might contain a query you might use a regex like `/search(\?.*)?/` 
 
 ```YAML
 SearchEngine:
@@ -123,7 +125,7 @@ The example above would match for the hosts `searchengine.com` and `search-engin
 
 ## Multiple configurations
 
-A simple definition of a search eninge with multiple configurations might look like this:
+A simple definition of a search engine with multiple configurations might look like this:
 
 ```YAML
 SearchEngine:
@@ -139,7 +141,7 @@ SearchEngine:
       - q
 ```
 
-The example above would again match for the hosts `searchengine.com` and `search-engine.org`. But differently to the first example the request parameter `q` would only be used for `search-engine.org` and `as_q` only for `searchengine.com`.
+The definition above would again match for the hosts `searchengine.com` and `search-engine.org`. However the request parameter `q` will be used specifically for `search-engine.org` while the request parameter `as_q` will be used specifically for `searchengine.com`.
 
 ## Complete definition
 
