@@ -1855,6 +1855,7 @@ sm.cn:
   - 
     urls:
       - m.sm.cn
+      - so.m.sm.cn
       - m.sp.sm.cn
     params:
       - q
