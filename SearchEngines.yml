@@ -463,7 +463,7 @@ Cốc Cốc:
       - coccoc.com
     params:
       - query
-    blacklink: 'search#query={k}'
+    backlink: 'search#query={k}'
 Comcast:
   - 
     urls:
