@@ -1935,6 +1935,7 @@ Sogou:
   - 
     urls:
       - www.sogou.com
+      - sogou.com
     params:
       - query
     backlink: 'web?query={k}'
@@ -1942,6 +1943,8 @@ Sogou:
       - gb2312
     hiddenkeyword:
       - '/link\?url=.*/'
+      - '/^$/'
+      - '/'
   -
     urls:
       - m.sogou.com
