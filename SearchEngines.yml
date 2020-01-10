@@ -1879,6 +1879,7 @@ sm.cn:
       - so.m.sm.cn
       - m.sp.sm.cn
       - yz.m.sm.cn
+      - quark.sm.cn
     params:
       - q
     backlink: 's?q={k}'
