@@ -2027,15 +2027,15 @@ T-Online:
     params:
       - q
     backlink: 'fast-cgi/tsc?mandant=toi&context=internet-tab&q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
   - 
     urls:
       - navigationshilfe.t-online.de
     params:
       - q
     backlink: 'dtag/dns/results?mode=search_top&q={k}'
-    hiddenkeyword:
-      - '/^$/'
-      - '/'
 talimba:
   - 
     urls:
