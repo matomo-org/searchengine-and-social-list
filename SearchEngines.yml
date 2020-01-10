@@ -1949,6 +1949,7 @@ Sogou:
     urls:
       - m.sogou.com
       - wap.sogou.com
+      - english.sogou.com
     params:
       - keyword
 Soso:
