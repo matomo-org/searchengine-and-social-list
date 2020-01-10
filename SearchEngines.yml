@@ -2033,6 +2033,9 @@ T-Online:
     params:
       - q
     backlink: 'dtag/dns/results?mode=search_top&q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 talimba:
   - 
     urls:
