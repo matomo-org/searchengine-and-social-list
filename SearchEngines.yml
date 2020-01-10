@@ -129,6 +129,13 @@ AllTheWeb:
     params:
       - q
     backlink: 'search?q={k}'
+AlohaFind:
+  -
+    urls:
+      - alohafind.com
+    params:
+      - q
+    backlink: 'search/?q={k}'
 AltaVista:
   - 
     urls:
