@@ -920,7 +920,10 @@ Google:
     params:
       - q
     backlink: 'web?q={k}'
-  - 
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
+  -
     urls:
       - search.incredibar.com
     params:
