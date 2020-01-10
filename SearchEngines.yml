@@ -917,6 +917,7 @@ Google:
   - 
     urls:
       - suche.gmx.net
+      - search.gmx.com
     params:
       - q
     backlink: 'web?q={k}'
