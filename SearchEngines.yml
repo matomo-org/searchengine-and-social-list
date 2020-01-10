@@ -2226,6 +2226,9 @@ Web.de:
       - su
       - q
     backlink: 'search/web/?su={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Web.nl:
   - 
     urls:
