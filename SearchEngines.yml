@@ -807,6 +807,17 @@ Geona:
     params:
       - q
     backlink: 'search?q={k}'
+Gibiru:
+  -
+    urls:
+      - gibiru.com
+      - www.gibiru.com
+    params:
+      - q
+    backlink: 'results.html?q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Gigablast:
   - 
     urls:
