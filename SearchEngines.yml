@@ -626,6 +626,13 @@ Eniro:
       - q
       - search_word
     backlink: 'query?q={k}'
+Entireweb:
+  -
+    urls:
+      - www.entireweb.com
+    params:
+      - q
+    backlink: 'web?q={k}'
 eo:
   - 
     urls:
