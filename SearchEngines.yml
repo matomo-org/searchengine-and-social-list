@@ -807,6 +807,17 @@ Geona:
     params:
       - q
     backlink: 'search?q={k}'
+Gibiru:
+  -
+    urls:
+      - gibiru.com
+      - www.gibiru.com
+    params:
+      - q
+    backlink: 'results.html?q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
 Gigablast:
   - 
     urls:
@@ -1878,6 +1889,8 @@ sm.cn:
       - m.sm.cn
       - so.m.sm.cn
       - m.sp.sm.cn
+      - yz.m.sm.cn
+      - quark.sm.cn
     params:
       - q
     backlink: 's?q={k}'
