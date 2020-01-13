@@ -633,6 +633,14 @@ eo:
     params:
       - x_query
     backlink: 'cgi-bin/eolost.cgi?x_query={k}'
+EpicSearch.in:
+  -
+    urls:
+      - epicsearch.in
+      - www.epicsearch.in
+    params:
+      - q
+    backlink: 'search/?q={k}'
 Eurip:
   - 
     urls:
