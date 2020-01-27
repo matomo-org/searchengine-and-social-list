@@ -1446,7 +1446,9 @@ Mailru:
       - UTF-8
       - windows-1251
     hiddenkeyword:
-      - '/.*/'
+      - '/redir\?.*redir=.*/'
+      - '/^$/'
+      - '/'
 Mamma:
   - 
     urls:
