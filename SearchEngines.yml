@@ -329,6 +329,7 @@ Baidu:
     urls:
       - www.baidu.com
       - www1.baidu.com
+      - baidu.com
       - m.baidu.com
       - www.baidu.co.th
       - zhidao.baidu.com
