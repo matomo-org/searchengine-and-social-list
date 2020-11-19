@@ -102,6 +102,8 @@ SearchEngine:
 
 The configuration above would allow an empty keyword for `searchengine.com`, `searchengine.com/` and `searchengine.com/search`
 
+If `hiddenkeyword` is not specified, it defaults to `['/^$/', '/']`
+
 ### charsets
 
 Charsets can be defined if search engines are using charsets other than UTF-8. The provided charset will be used to convert any detected search keyword to UTF-8.

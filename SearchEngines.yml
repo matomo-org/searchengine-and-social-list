@@ -1355,8 +1355,6 @@ IxQuick:
     params:
       - query
     backlink: 'do/asearch?query={k}'
-    hiddenkeyword:
-      - '/do/asearch'
 Jungle Key:
   - 
     urls:
@@ -2032,8 +2030,6 @@ StartPage:
     params:
       - query
     backlink: 'do/asearch?query={k}'
-    hiddenkeyword:
-      - '/do/asearch'
 Startpagina (Google):
   - 
     urls:
