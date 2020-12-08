@@ -1025,6 +1025,15 @@ Google:
     backlink: 'search?q={k}'
   -
     urls:
+      - monumentbrowser.com
+    params:
+      - q
+    backlink: '?q={k}'
+    hiddenkeyword:
+      - '/^$/'
+      - '/'
+  -
+    urls:
       - search.bt.com
     params:
       - p
