@@ -122,6 +122,13 @@ Allesklar:
     params:
       - words
     backlink: '?words={k}'
+AllTheInternet:
+  -
+    urls:
+      - www.alltheinternet.com
+    params:
+      - q
+    backlink: '?q={k}'
 AllTheWeb:
   -
     urls:
@@ -1058,6 +1065,17 @@ Google:
     params:
       - q
     backlink: 'search.php?q={k}'
+  -
+    urls:
+      - search.xfinity.com
+    params:
+      - searchTerm
+  -
+    urls:
+      - www.kadaza.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Google Blogsearch:
   -
     urls:
@@ -1567,6 +1585,13 @@ Mister Wong:
     params:
       - keywords
     backlink: 'search/?keywords={k}'
+Mojeek:
+  -
+    urls:
+      - www.mojeek.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Monstercrawler:
   -
     urls:
