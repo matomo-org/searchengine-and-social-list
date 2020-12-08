@@ -122,6 +122,13 @@ Allesklar:
     params:
       - words
     backlink: '?words={k}'
+AllTheInternet:
+  -
+    urls:
+      - www.alltheinternet.com
+    params:
+      - q
+    backlink: '?q={k}'
 AllTheWeb:
   -
     urls:
@@ -290,6 +297,7 @@ auone:
     urls:
       - search.auone.jp
       - sp-search.auone.jp
+      - sp-web.search.auone.jp
     params:
       - q
     backlink: '?q={k}'
@@ -802,6 +810,13 @@ FriendFeed:
     params:
       - q
     backlink: 'search?q={k}'
+Frontier:
+  -
+    urls:
+      - search.frontier.com
+    params:
+      - q
+    backlink: 'search/?q={k}'
 GAIS:
   -
     urls:
@@ -1044,6 +1059,23 @@ Google:
     params:
       - q
     backlink: 'search/?q={k}'
+  -
+    urls:
+      - search.abv.bg
+    params:
+      - q
+    backlink: 'search.php?q={k}'
+  -
+    urls:
+      - search.xfinity.com
+    params:
+      - searchTerm
+  -
+    urls:
+      - www.kadaza.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Google Blogsearch:
   -
     urls:
@@ -1553,6 +1585,13 @@ Mister Wong:
     params:
       - keywords
     backlink: 'search/?keywords={k}'
+Mojeek:
+  -
+    urls:
+      - www.mojeek.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Monstercrawler:
   -
     urls:
@@ -2043,6 +2082,10 @@ StartPage:
     backlink: 'do/asearch?query={k}'
     hiddenkeyword:
       - '/do/asearch'
+      - '/do/search'
+      - '/sp/search'
+      - '/^$/'
+      - '/'
 Startpagina (Google):
   -
     urls:
@@ -2055,6 +2098,7 @@ Startsiden:
   -
     urls:
       - www.startsiden.no
+      - startsiden.no
     params:
       - q
     backlink: 'sok/index.html?q={k}'
