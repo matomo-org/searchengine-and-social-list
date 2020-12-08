@@ -803,6 +803,13 @@ FriendFeed:
     params:
       - q
     backlink: 'search?q={k}'
+Frontier:
+  -
+    urls:
+      - search.frontier.com
+    params:
+      - q
+    backlink: 'search/?q={k}'
 GAIS:
   -
     urls:
