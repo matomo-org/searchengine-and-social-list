@@ -2043,6 +2043,10 @@ StartPage:
     backlink: 'do/asearch?query={k}'
     hiddenkeyword:
       - '/do/asearch'
+      - '/do/search'
+      - '/sp/search'
+      - '/^$/'
+      - '/'
 Startpagina (Google):
   -
     urls:
