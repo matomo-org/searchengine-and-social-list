@@ -290,6 +290,7 @@ auone:
     urls:
       - search.auone.jp
       - sp-search.auone.jp
+      - sp-web.search.auone.jp
     params:
       - q
     backlink: '?q={k}'
@@ -1044,6 +1045,12 @@ Google:
     params:
       - q
     backlink: 'search/?q={k}'
+  -
+    urls:
+      - search.abv.bg
+    params:
+      - q
+    backlink: 'search.php?q={k}'
 Google Blogsearch:
   -
     urls:
@@ -2059,6 +2066,7 @@ Startsiden:
   -
     urls:
       - www.startsiden.no
+      - startsiden.no
     params:
       - q
     backlink: 'sok/index.html?q={k}'
