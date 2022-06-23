@@ -440,6 +440,13 @@ Bluewin:
       - searchTerm
       - q
     backlink: 'v2/index.php?q={k}'
+Brave:
+  -
+    urls:
+      - search.brave.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Canoe.ca:
   -
     urls:
