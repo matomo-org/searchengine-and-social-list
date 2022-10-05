@@ -1808,6 +1808,7 @@ Qualigo:
 Qwant:
   -
     urls:
+      - qwant.com
       - www.qwant.com
       - lite.qwant.com
     params:
