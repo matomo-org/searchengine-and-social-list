@@ -248,10 +248,6 @@ tumblr:
   - tumblr.com
   - t.umblr.com
 
-Twitter:
-  - twitter.com
-  - t.co
-
 Sourceforge:
   - sourceforge.net
 
@@ -295,6 +291,11 @@ Workplace:
   - workplace.com
   - l.workplace.com
   - lm.workplace.com
+
+X:
+  - twitter.com
+  - t.co
+  - x.com
 
 Xanga:
   - xanga.com
