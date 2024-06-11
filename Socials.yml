@@ -1,3 +1,39 @@
+ActivityPub:
+  - mastodon.social
+  - mastodon.cloud
+  - mastodon.technology
+  - mastodon.xyz
+  - mastodon.at
+  - mastodon.art
+  - mastodon.uno
+  - mastodon.online
+  - mastodon.world
+  - mastodont.cat
+  - mas.to
+  - mamot.fr
+  - mstdn.io
+  - mstdn.jp
+  - mstdn.social
+  - bitcoinhackers.org
+  - botsin.space
+  - chaos.social
+  - cybre.space
+  - fosstodon.org
+  - friends.nico
+  - knzk.me
+  - orwell.fun
+  - lemmy.world
+  - livellosegreto.it
+  - micro.blog
+  - misskey.io
+  - misskey.social
+  - pixelfed.social
+  - ro-mastodon.puyo.jp
+  - social.tchncs.de
+  - sociale.network
+  - quey.org
+  - vis.social
+
 Badoo:
   - badoo.com
 
@@ -113,30 +149,6 @@ LinkedIn:
 LiveJournal:
   - livejournal.ru
   - livejournal.com
-
-Mastodon:
-  - mastodon.social
-  - mastodon.cloud
-  - mastodon.technology
-  - mastodon.xyz
-  - mastodon.at
-  - mastodon.art
-  - mamot.fr
-  - pawoo.net
-  - mstdn.io
-  - mstdn.jp
-  - friends.nico
-  - ro-mastodon.puyo.jp
-  - quey.org
-  - botsin.space
-  - social.tchncs.de
-  - knzk.me
-  - mastodont.cat
-  - bitcoinhackers.org
-  - fosstodon.org
-  - chaos.social
-  - cybre.space
-  - vis.social
 
 MeinVZ:
   - meinvz.net
