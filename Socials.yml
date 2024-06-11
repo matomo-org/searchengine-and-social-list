@@ -137,6 +137,27 @@ Mastodon:
   - chaos.social
   - cybre.space
   - vis.social
+  - typo.social
+  - front-end.social
+  - hachyderm.io
+  - mastodon.online
+  - newsie.social
+  - mstdn.social
+  - indieweb.social
+  - sfba.social
+  - mas.to
+  - mstdn.party
+  - c.im
+  - mastodonapp.uk
+  - universeodon.com
+  - social.vivaldi.net
+  - ohai.social
+  - toot.community
+  - masto.ai
+  - mastodon.scot
+  - mastodon.world
+  - mastodon.nz
+  - graphics.social
 
 MeinVZ:
   - meinvz.net
@@ -198,6 +219,15 @@ Pinterest:
   - pinterest.pt
   - pinterest.se
 
+Pixelfed:
+  - pixelfed.social
+  - pixelfed.de
+  - pxlmo.com
+  - metapixl.com
+  - pix.toot.wales
+  - pixelfed.uno
+  - pixey.org
+
 Plaxo:
   - plaxo.com
 
@@ -251,6 +281,7 @@ tumblr:
 Twitter:
   - twitter.com
   - t.co
+  - x.com
 
 Sourceforge:
   - sourceforge.net
