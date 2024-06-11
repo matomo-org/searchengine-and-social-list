@@ -137,6 +137,22 @@ Mastodon:
   - chaos.social
   - cybre.space
   - vis.social
+  - typo.social
+  - front-end.social
+  - hachyderm.io
+  - mastodon.online
+  - newsie.social
+  - mstdn.social
+  - indieweb.social
+  - sfba.social
+  - mas.to
+  - mstdn.party
+  - c.im
+  - mastodonapp.uk
+  - universeodon.com
+  - social.vivaldi.net
+  - ohai.social
+  - toot.community
 
 MeinVZ:
   - meinvz.net
@@ -251,6 +267,7 @@ tumblr:
 Twitter:
   - twitter.com
   - t.co
+  - x.com
 
 Sourceforge:
   - sourceforge.net
