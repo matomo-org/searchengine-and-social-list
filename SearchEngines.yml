@@ -2136,6 +2136,13 @@ Surf Canyon:
       - surfcanyon.com
     params:
       - q
+Swisscows:
+  -
+    urls:
+      - swisscows.com
+    params:
+      - query
+    backlink: 'web?query={k}'
 T-Online:
   -
     urls:
