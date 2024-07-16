@@ -1427,6 +1427,13 @@ Jungle Spider:
       - www.jungle-spider.de
     params:
       - q
+Junior Safe Search:
+  -
+    urls:
+      - www.juniorsafesearch.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Jyxo:
   -
     urls:
