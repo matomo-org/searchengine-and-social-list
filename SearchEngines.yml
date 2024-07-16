@@ -2301,6 +2301,13 @@ Trusted Search:
     params:
       - w
     backlink: 'search?w={k}'
+Trustnav:
+  -
+    urls:
+      - search.trustnav.com
+    params:
+      - q
+    backlink: '?q={k}'
 Twingly:
   -
     urls:
