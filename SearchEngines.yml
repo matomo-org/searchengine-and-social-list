@@ -2164,6 +2164,13 @@ Surf Canyon:
       - surfcanyon.com
     params:
       - q
+Swiggle:
+  -
+    urls:
+      - swiggle.org.uk
+    params:
+      - q
+    backlink: '?q={k}'
 Swisscows:
   -
     urls:
