@@ -1818,6 +1818,13 @@ Poisk.Ru:
     backlink: 'cgi-bin/poisk?text={k}'
     charsets:
       - windows-1251
+Presearch:
+  -
+    urls:
+      - presearch.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 qip.ru:
   -
     urls:
