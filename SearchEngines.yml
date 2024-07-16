@@ -1506,6 +1506,13 @@ Lo.st:
     params:
       - x_query
     backlink: 'cgi-bin/eolost.cgi?x_query={k}'
+Local Moxie:
+  -
+    urls:
+      - www.localmoxie.com
+    params:
+      - q
+    backlink: 'serp?q={k}'
 LookAny:
   -
     urls:
