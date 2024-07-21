@@ -2679,6 +2679,7 @@ Zapmeta:
       - fi.zapmeta.com
       - no.zapmeta.com
       - tr.zapmeta.com
+      - www.zapmetasearch.{}
     params:
       - q
       - query
