@@ -2667,18 +2667,64 @@ YouGoo:
     params:
       - q
     backlink: '?cx=search&q={k}'
-Zapmeta:
+ZapMeta:
   -
     urls:
       - www.zapmeta.com
       - 'zapmeta.{}'
-      - uk.zapmeta.com
+      - ae.zapmeta.com
       - ar.zapmeta.com
+      - at.zapmeta.com
       - au.zapmeta.com
+      - be.zapmeta.com
+      - bo.zapmeta.com
+      - br.zapmeta.com
       - ca.zapmeta.com
+      - ch.zapmeta.com
+      - cl.zapmeta.com
+      - co.zapmeta.com
+      - cr.zapmeta.com
+      - cz.zapmeta.com
+      - de.zapmeta.com
+      - dk.zapmeta.com
+      - do.zapmeta.com
+      - ec.zapmeta.com
+      - es.zapmeta.com
       - fi.zapmeta.com
+      - fr.zapmeta.com
+      - gr.zapmeta.com
+      - hk.zapmeta.com
+      - hn.zapmeta.com
+      - hu.zapmeta.com
+      - ie.zapmeta.com
+      - il.zapmeta.com
+      - in.zapmeta.com
+      - it.zapmeta.com
+      - jp.zapmeta.com
+      - kr.zapmeta.com
+      - mx.zapmeta.com
+      - my.zapmeta.com
+      - ng.zapmeta.com
+      - nl.zapmeta.com
       - no.zapmeta.com
+      - nz.zapmeta.com
+      - pe.zapmeta.com
+      - ph.zapmeta.com
+      - pk.zapmeta.com
+      - pl.zapmeta.com
+      - pt.zapmeta.com
+      - py.zapmeta.com
+      - ro.zapmeta.com
+      - se.zapmeta.com
+      - sg.zapmeta.com
+      - sk.zapmeta.com
+      - sv.zapmeta.com
       - tr.zapmeta.com
+      - tw.zapmeta.com
+      - uk.zapmeta.com
+      - ve.zapmeta.com
+      - vn.zapmeta.com
+      - za.zapmeta.com
       - www.zapmetasearch.{}
     params:
       - q
