@@ -2682,7 +2682,7 @@ Zapmeta:
     params:
       - q
       - query
-    backlink: '?q={k}'
+    backlink: 'search?q={k}'
 Zhongsou:
   -
     urls:
