@@ -46,6 +46,15 @@
     charsets:
       - UTF-8
       - gb2312
+  -
+    urls:
+      - www.sou.com
+    params:
+      - q
+    backlink: '?q={k}'
+    charsets:
+      - UTF-8
+      - gb2312
 Abacho:
   -
     urls:
