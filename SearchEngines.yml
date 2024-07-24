@@ -2679,8 +2679,8 @@ ZapMeta:
     urls:
       - www.zapmeta.com
       - 'zapmeta.{}'
-      - {}.zapmeta.com
-      - www.zapmetasearch.{}
+      - '{}.zapmeta.com'
+      - 'www.zapmetasearch.{}'
     params:
       - q
       - query
