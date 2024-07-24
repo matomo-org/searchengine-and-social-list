@@ -2653,6 +2653,13 @@ Yellowmap:
       - yellowmap.de
     params:
       - ' '
+Yep:
+  -
+    urls:
+      - yep.com
+    params:
+      - q
+    backlink: 'web?q={k}'
 Yippy:
   -
     urls:
