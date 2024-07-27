@@ -2667,6 +2667,13 @@ Yippy:
     params:
       - query
     backlink: 'search?query={k}'
+You:
+  -
+    urls:
+      - you.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 YouGoo:
   -
     urls:
