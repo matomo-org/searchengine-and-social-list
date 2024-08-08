@@ -1798,6 +1798,13 @@ PeoplePC:
     params:
       - q
     backlink: 'search?q={k}'
+Perplexity:
+  -
+    urls:
+      - www.perplexity.ai
+    params:
+      - q
+    backlink: 'search?s=o&q={k}'
 Picsearch:
   -
     urls:
