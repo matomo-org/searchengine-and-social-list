@@ -2688,6 +2688,13 @@ Yippy:
     params:
       - query
     backlink: 'search?query={k}'
+Yongzin:
+  -
+    urls:
+      - www.yongzin.com
+    params:
+      - word
+    backlink: 'page/search.do?word={k}'
 You:
   -
     urls:
