@@ -759,10 +759,10 @@ Findhurtig:
 Fireball:
   -
     urls:
-      - www.fireball.de
+      - fireball.com
     params:
       - q
-    backlink: 'ajax.asp?q={k}'
+    backlink: 'search/?q={k}'
 Firstsfind:
   -
     urls:
