@@ -480,6 +480,7 @@ ChatGPT:
   -
     urls:
       - chat.openai.com
+      - chatgpt.com
     params: []
     hiddenkeyword:
       - '/^$/'
