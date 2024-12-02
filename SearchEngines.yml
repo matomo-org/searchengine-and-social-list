@@ -754,6 +754,7 @@ Findhurtig:
 Fireball:
   -
     urls:
+      - www.fireball.de
       - fireball.com
     params:
       - q
