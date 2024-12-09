@@ -1178,13 +1178,6 @@ Google Video:
     params:
       - q
     backlink: 'search?q={k}&tbm=vid'
-GouGou:
-  -
-    urls:
-      - web.gougou.com
-    params:
-      - search
-    backlink: 'search?search={k}'
 GoYellow.de:
   -
     urls:
