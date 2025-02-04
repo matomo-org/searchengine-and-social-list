@@ -127,7 +127,6 @@ LiveJournal:
   - livejournal.com
 
 Mastodon:
-  - org.joinmastodon.android
   - mastodon.social
   - mastodon.cloud
   - mastodon.technology
@@ -171,6 +170,7 @@ Mastodon:
   - mastodon.world
   - mastodon.nz
   - graphics.social
+  - org.joinmastodon.android
 
 MeinVZ:
   - meinvz.net
