@@ -127,6 +127,7 @@ LiveJournal:
   - livejournal.com
 
 Mastodon:
+  - org.joinmastodon.android
   - mastodon.social
   - mastodon.cloud
   - mastodon.technology
