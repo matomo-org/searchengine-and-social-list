@@ -1,5 +1,17 @@
 These are community-contributed definitions for search engine and social network detections list maintained and used by [Matomo](https://matomo.org/) (formerly Piwik), the leading open source web analytics platform.
 
+# AI
+
+AIs are defined in YAML format in the file `AI.yml`
+
+The definitions contain the name of the AI, as well as a list of one or more urls.
+
+```YAML
+"My AI":
+  - my-ai.com
+  - myai.org
+```
+
 # Social Networks
 
 Social networks are defined in YAML format in the file `Socials.yml`
