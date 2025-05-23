@@ -2,7 +2,7 @@ These are community-contributed definitions for AI assistant, search engine and 
 
 # AI Assistants
 
-AI Assistants are defined in YAML format in the file `AI.yml`
+AI Assistants are defined in YAML format in the file `AIAssistants.yml`
 
 The definitions contain the name of the AI Assistant, as well as a list of one or more urls.
 
