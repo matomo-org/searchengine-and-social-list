@@ -1881,6 +1881,13 @@ Qualigo:
       - www.qualigo.nl
     params:
       - q
+Quendu:
+  -
+    urls:
+      - www.quendu.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Qwant:
   -
     urls:
