@@ -1467,6 +1467,13 @@ Kagi:
     params:
       - q
     backlink: 'search?q={k}'
+KARMA:
+  -
+    urls:
+      - karmasearch.org
+    params:
+      - q
+    backlink: 'search?q={k}'
 Kataweb:
   -
     urls:
