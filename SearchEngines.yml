@@ -1745,6 +1745,13 @@ Nigma:
     params:
       - s
     backlink: 'index.php?s={k}'
+OceanHero:
+  -
+    urls:
+      - oceanhero.today
+    params:
+      - q
+    backlink: 'web?q={k}'
 Onet.pl:
   -
     urls:
