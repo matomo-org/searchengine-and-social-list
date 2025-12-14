@@ -824,6 +824,13 @@ Freenet:
       - query
       - Keywords
     backlink: 'suche/?query={k}'
+Freespoke:
+  -
+    urls:
+      - freespoke.com
+    params:
+      - q
+    backlink: 'search/web?q={k}'
 FriendFeed:
   -
     urls:
