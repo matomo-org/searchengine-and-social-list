@@ -1277,6 +1277,13 @@ Inbox:
     params:
       - q
     backlink: 'search/results1.aspx?q={k}'
+info.com:
+  -
+    urls:
+      - www.info.com
+    params:
+      - q
+    backlink: 'serp?q={k}'
 InfoSpace:
   -
     urls:
