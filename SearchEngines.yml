@@ -1453,6 +1453,13 @@ K9 Safe Search:
     params:
       - q
     backlink: 'search.jsp?q={k}'
+Kagi:
+  -
+    urls:
+      - kagi.com
+    params:
+      - q
+    backlink: 'search?q={k}'
 Kataweb:
   -
     urls:
