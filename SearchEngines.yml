@@ -2409,6 +2409,13 @@ Volny:
     backlink: 'fulltext/?search={k}'
     charsets:
       - windows-1250
+Vuhuv:
+  -
+    urls:
+      - vuhuv.com
+    params:
+      - q
+    backlink: '?q={k}'
 Walhello:
   -
     urls:
