@@ -2168,6 +2168,7 @@ StartPage:
       - s12-eu5.startpage.com
       - s13-eu5.startpage.com
       - s14-eu5.startpage.com
+      - startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion
     params:
       - query
     backlink: 'do/asearch?query={k}'
