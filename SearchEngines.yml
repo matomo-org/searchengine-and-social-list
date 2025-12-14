@@ -1865,6 +1865,13 @@ Presearch:
     params:
       - q
     backlink: 'search?q={k}'
+PrivacyWall:
+  -
+    urls:
+      - www.privacywall.org
+    params:
+      - q
+    backlink: 'search/secure?q={k}'
 qip.ru:
   -
     urls:
