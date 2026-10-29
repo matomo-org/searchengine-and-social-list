@@ -23,6 +23,9 @@ ChatGLM:
 Deepseek:
   - chat.deepseek.com
 
+Doubao:
+  - doubao.com
+
 Duck.ai:
   - duck.ai
 
@@ -39,6 +42,10 @@ iAsk:
 
 Jasper:
   - app.jasper.ai
+
+Kimi:
+  - kimi.com
+  - kimi.moonshot.cn
 
 Le Chat:
   - chat.mistral.ai
@@ -60,3 +67,6 @@ Writesonic:
 
 You:
   - you.com
+
+Yuanbao:
+  - yuanbao.tencent.com
